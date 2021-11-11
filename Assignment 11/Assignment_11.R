@@ -44,5 +44,6 @@ h_C = (hypothetical(h_f))
 
 frac_word_once <- 6.9*10^(-20)
 tot_uniq_word <- 5*10^27
+sum(Nk)/tot_uniq_word
 from_1_199 <- 19900
-from_1_199/tot_uniq_word
+from_1_199/(sum(Nk)+from_1_199)
